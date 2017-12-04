@@ -29,7 +29,7 @@ public class ProgramLauncher {
 		launcher.mainMenu();
 	}
 
-	private void mainMenu() {
+	public void mainMenu() {
 		Scanner in = new Scanner(System.in);
 		boolean run = true;
 		try {
@@ -95,7 +95,7 @@ public class ProgramLauncher {
 		in.close();
 	}
 
-	private void customerLogIn(BankingSystem bank) {
+	public void customerLogIn(BankingSystem bank) {
 		Scanner in = new Scanner(System.in);
 		System.out.format("%50s", "  --------------------------------------\n  --------------------------------------");
 		System.out.format("%50s", "\n|| Customer Log in Page");
@@ -124,7 +124,7 @@ public class ProgramLauncher {
 		in.close();
 	}
 
-	private void customerMainMenu(BankingSystem bank, String id) {
+	public void customerMainMenu(BankingSystem bank, String id) {
 		boolean run = true;
 		Scanner in = new Scanner(System.in);
 		while (run) {
@@ -236,7 +236,7 @@ public class ProgramLauncher {
 		in.close();
 	}
 
-	private void adminPage(BankingSystem bank) {
+	public void adminPage(BankingSystem bank) {
 		Scanner in = new Scanner(System.in);
 		boolean run = true;
 		while (run) {
