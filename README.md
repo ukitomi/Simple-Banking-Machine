@@ -109,7 +109,6 @@ id          name            gender age         total
 number      balance    
 ----------- -----------
        1000         310
------------------------
 total               310
 :: ACCOUNT SUMMARY - SUCCESS
 
@@ -125,15 +124,10 @@ id          name            gender age         total
 
 :: REPORT B - RUNNING
 average    
------------
 262        
 :: REPORT B - SUCCESS
 
-  --------------------------------------
-  --------------------------------------
-|| Welcome to the Self Service Banking System! - Main Menu
-  --------------------------------------
-  --------------------------------------
+Welcome to the Self Service Banking System! - Main Menu
 1. New Customer
 2. Customer Login
 3. Exit
