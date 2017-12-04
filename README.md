@@ -19,10 +19,11 @@ Download the files needed under the repository, and store them under the project
 Refresh the project in Eclipse. All the files should be visible.
 
 #### Step 4.
-Launch your database application. In your database application, create an actual database. ![It looks like this in IBM DB2](https://cdn.discordapp.com/attachments/316348168465809408/387145801740189696/unknown.png)
+Launch your database application. In your database application, create an actual database. [It looks like this in IBM DB2](https://cdn.discordapp.com/attachments/316348168465809408/387145801740189696/unknown.png)
 
 #### Step 5.
-Copy and paste the file contents under create.clp to your database app. ![It looks like this in IBM DB2](https://cdn.discordapp.com/attachments/316348168465809408/387355756099403797/unknown.png)
+Copy and paste the file contents under create.clp to your database app. [It looks like this in IBM DB2](https://cdn.discordapp.com/attachments/316348168465809408/387355756099403797/unknown.png)
+
 Those are the create table statements needed in order to test our program.
 
 #### Step 6.
