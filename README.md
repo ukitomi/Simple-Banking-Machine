@@ -30,10 +30,113 @@ Copy and paste the file contents under create.clp. Those are the create table st
 
 Open terminal and go to the directory where files are located.
 Copy and paste the following lines into the terminal.
-```javac BankingSystem.java
+```
+javac BankingSystem.java
 javac ProgramLaunhcer.java
-java -cp ":../lib/db2jcc4.jar" ProgramLauncher  db.properties```
+java -cp ":../lib/db2jcc4.jar" ProgramLauncher  db.properties
+```
 
-to be continue. 12/3/2017
+and your output should look like this:
+
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+:: TEST - DISCONNECTED FROM DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+
+:: CREATE NEW CUSTOMER - RUNNING
+:: CREATE NEW CUSTOMER - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+
+:: ACCOUNT SUMMARY - RUNNING
+number      balance    
+----------- -----------
+       1000          10
+       1001         100
+-----------------------
+total               110
+:: ACCOUNT SUMMARY - SUCCESS
+
+
+:: REPORT A - RUNNING
+id          name            gender age         total      
+----------- --------------- ------ ----------- -----------
+102         Misty           F      18          500        
+100         Ash             M      10          110        
+101         Pikachu         M      25          25         
+:: REPORT A - SUCCESS
+
+
+:: DEPOSIT - RUNNING
+:: DEPOSIT - SUCCESS
+
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+
+:: ACCOUNT SUMMARY - RUNNING
+number      balance    
+----------- -----------
+       1000         310
+-----------------------
+total               310
+:: ACCOUNT SUMMARY - SUCCESS
+
+
+:: REPORT A - RUNNING
+id          name            gender age         total      
+----------- --------------- ------ ----------- -----------
+102         Misty           F      18          500        
+100         Ash             M      10          310        
+101         Pikachu         M      25          25         
+:: REPORT A - SUCCESS
+
+
+:: REPORT B - RUNNING
+average    
+-----------
+262        
+:: REPORT B - SUCCESS
+
+  --------------------------------------
+  --------------------------------------
+|| Welcome to the Self Service Banking System! - Main Menu
+  --------------------------------------
+  --------------------------------------
+1. New Customer
+2. Customer Login
+3. Exit
+Note: NUMBER ONLY!
 
 
